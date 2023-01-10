@@ -1,38 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: Lato, sans-serif;
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #1b2b32;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.contenedor-logo {
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+
+.logo-react {
+  height: 65px;
+  width: 65px;
+  padding-left: 15px;
+}
+
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 5px solid black;
+  -webkit-box-shadow: -44px 24px 32px -6px rgba(0,0,0,0.6);
+  -moz-box-shadow: -44px 24px 32px -6px rgba(0,0,0,0.6);
+  box-shadow: -44px 24px 32px -6px rgba(0,0,0,0.6);
+
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
