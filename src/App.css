@@ -3,34 +3,37 @@
   margin: 0;
 }
 
+
+h1 {
+  padding-left: 4rem;
+}
+
 .App {
   font-family: Lato, sans-serif;
   height: 100vh;
-  padding-top: 10px;
   background-color: #1b2b32;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+ 
   
 }
 
-
-.contenedor-logo {
-  width: 100%;
-  height: 50px;
-  margin: 8px;
+.react-logo-contenedor {
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: white;
-  
+  padding-bottom: 30px;
 }
 
-.logo-react {
-  height: 75px;
-  width: 75px;
-  padding-left: 15px;
+.react-logo {
+  width: 105px;
+  height: 85px;
+  padding-left: 20px;
 }
 
 .contenedor-calculadora {

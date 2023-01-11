@@ -1,5 +1,5 @@
 import './App.css';
-import logoReact from './imagenes/React-icon.svg';
+import logoReact from './imagenes/reacticon.png';
 import Boton from './componentes/Boton.jsx'
 import Pantalla from './componentes/Pantalla.jsx'
 import BotonClear from './componentes/BotonClear.jsx'
@@ -25,9 +25,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className='contenedor-logo'>
+      <div className='react-logo-contenedor'>
         <h1>CALCULADORA CON REACT</h1>
-        <img className='logo-react' src={logoReact} alt='logo' />
+        <img className='react-logo' src={logoReact} alt='react-logo'/>
       </div>
       <div className='contenedor-calculadora'>
         <Pantalla input={input} />
