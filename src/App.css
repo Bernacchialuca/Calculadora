@@ -28,21 +28,20 @@
 }
 
 .logo-react {
-  height: 65px;
-  width: 65px;
+  height: 75px;
+  width: 75px;
   padding-left: 15px;
 }
 
 .contenedor-calculadora {
-  width: 400px;
-  height: 600px;
+  width: 380px;
+  height: 580px;
   padding: 14px;
   background-color: aliceblue;
   border-radius: 20px;
   border: 5px solid black;
-  -webkit-box-shadow: -44px 24px 32px -6px rgba(0,0,0,0.6);
-  -moz-box-shadow: -44px 24px 32px -6px rgba(0,0,0,0.6);
-  box-shadow: -44px 24px 32px -6px rgba(0,0,0,0.6);
+  padding-top: 40px;
+  box-shadow: -44px 24px 32px -6px rgb(0 0 0 / 60%);
 
 }
 

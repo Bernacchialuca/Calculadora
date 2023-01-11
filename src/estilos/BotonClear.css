@@ -12,3 +12,15 @@
     margin: 4px;
     cursor: pointer;
 }
+
+.boton-clear:hover {
+    background-color:#1dda8e;
+    
+   border-radius: 50%;
+
+   -moz-transition: all .51s;
+   -o-transition: all .51s;
+   -webkit-transition: all .51s;
+   transition: all .51s;
+}
+

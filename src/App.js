@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <div className='contenedor-logo'>
-        <h1>Calculadora con React</h1>
+        <h1>CALCULADORA CON REACT</h1>
         <img className='logo-react' src={logoReact} alt='logo' />
       </div>
       <div className='contenedor-calculadora'>

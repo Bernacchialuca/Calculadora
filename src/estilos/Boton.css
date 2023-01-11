@@ -16,12 +16,25 @@
 
 .boton-contenedor:hover {
     background-color: #50bafc ;
+    border-radius: 50%;
+
+   -moz-transition: all .51s;
+   -o-transition: all .51s;
+   -webkit-transition: all .51s;
+   transition: all .51s;
 }
 
 .operador {
     background-color: #fb9ff3;
+    
 }
 
 .operador:hover { 
     background-color: #fd7bf2;
+    border-radius: 50%;
+
+   -moz-transition: all .51s;
+   -o-transition: all .51s;
+   -webkit-transition: all .51s;
+   transition: all .51s;
 }
