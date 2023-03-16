@@ -15,7 +15,6 @@ body {
 .App {
   font-family: Lato, sans-serif;
   height: 100vh;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,14 +41,14 @@ body {
 
 .contenedor-calculadora {
   width: 360px;
-  height: 580px;
+  height: 570px;
   padding: 14px;
   background-color: #2e2e2e;
   border-radius: 20px;
   border: 5px solid black;
   padding-top: 40px;
   box-shadow: -44px 24px 32px -6px rgb(0 0 0 / 60%);
-
+  margin-bottom: 50px;
 }
 
 .fila {
