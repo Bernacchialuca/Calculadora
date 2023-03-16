@@ -1,22 +1,22 @@
 .boton-contenedor {
     flex: 1 1;
-    height: 83px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 38px;
-    background-color: #8ed1fc ;
-    color: black;
+    font-size: 30px;
+    background-color: #4D4D4D ;
+    color: rgb(255, 255, 255);
     border-radius: 25px;
     border: 3px solid black;
-    margin: 4px;
+    margin: 3px;
     cursor: pointer;
     
 }
 
 .boton-contenedor:hover {
-    background-color: #50bafc ;
-    border-radius: 50%;
+    background-color: #949494 ;
+    border-radius: 30px;
 
    -moz-transition: all .51s;
    -o-transition: all .51s;
@@ -24,29 +24,15 @@
    transition: all .51s;
 }
 
-.equals {
-    flex: 1 1;
-    height: 83px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 38px;
-    background-color:#7bdcb5;
-    color: black;
-    border-radius: 25px;
-    border: 3px solid black;
-    margin: 4px;
-    cursor: pointer;
-}
 
 .operador {
-    background-color: #fb9ff3;
+    background-color: #2d2d2d;
     
 }
 
 .operador:hover { 
-    background-color: #fd7bf2;
-    border-radius: 50%;
+    background-color: #FD9E0C;
+    border-radius: 30px;
 
    -moz-transition: all .51s;
    -o-transition: all .51s;
